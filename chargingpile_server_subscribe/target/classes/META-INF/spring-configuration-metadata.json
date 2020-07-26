@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "chargingpile.mqtt.emqx",
+      "type": "com.chargingpile.subscribe.properties.EmqxMqttProperties",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chargingpile.mqtt.emqx.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.default-topic",
+      "type": "java.lang.String",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.host-url",
+      "type": "java.lang.String",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.keep-alive",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.password",
+      "type": "java.lang.String",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.q-os",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    },
+    {
+      "name": "chargingpile.mqtt.emqx.username",
+      "type": "java.lang.String",
+      "sourceType": "com.chargingpile.subscribe.properties.EmqxMqttProperties"
+    }
+  ],
+  "hints": []
+}

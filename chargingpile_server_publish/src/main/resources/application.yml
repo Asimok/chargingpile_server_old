@@ -1,0 +1,24 @@
+server:
+  port: 1001
+
+chargingpile:
+  mqtt:
+    emqx:
+      username: admin
+      password: public
+      #tcp://ip:port
+      host-url : tcp://61.167.120.133:1883
+#      client-id : helmet${random.value}
+      client-id : chargingpile_server_publish${random.value}
+      default-topic : chargingpile_topic
+#      client-id: mqttjs_d30ed7b6{random.value}
+#      default-topic: testtopic/#
+
+      #default-topic: $SYS/brokers/+/clients/#
+      timeout : 60
+      keep-alive : 60
+      #qos 可以取值0,1,2
+      q-os: 0
+
+
+
