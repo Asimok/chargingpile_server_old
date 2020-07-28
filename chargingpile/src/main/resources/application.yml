@@ -1,8 +1,8 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/chargingpile?useSSL=true&characterEncoding=utf-8&useUnicode=true&serverTimezone=UTC
+    url: jdbc:mysql://61.167.120.133:3306/chargingpile?useSSL=true&characterEncoding=utf-8&useUnicode=true&serverTimezone=UTC
     username: root
     password: 1239877Mq..
     driver-class-name: com.mysql.cj.jdbc.Driver

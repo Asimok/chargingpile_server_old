@@ -3,15 +3,27 @@ server:
 
 chargingpile:
   mqtt:
+#    emqx:
+#      username: admin
+#      password: public
+#      #tcp://ip:port
+##      host-url : tcp://61.167.120.133:1883
+#      host-url : tcp://39.96.68.13:1883
+#      client-id : server_subscribe${random.value}
+#      default-topic : chargingpile_topic
+#      timeout : 60
+#      keep-alive : 60
+#      #qos 可以取值0,1,2
+#      q-os: 0
     emqx:
       username: admin
       password: public
       #tcp://ip:port
-      host-url : tcp://61.167.120.133:1883
-      client-id : chargingpile_server_subscribe${random.value}
-      default-topic : chargingpile_topic
-      timeout : 60
-      keep-alive : 60
+      host-url: tcp://61.167.120.133:1883
+      client-id: helmet_server_subscribe${random.value}
+      default-topic: helmet_topic
+      timeout: 60
+      keep-alive: 60
       #qos 可以取值0,1,2
       q-os: 0
 spring:
@@ -20,6 +32,11 @@ spring:
     username: root
     password: 1239877Mq..
     driver-class-name: com.mysql.cj.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://39.96.68.13:3306/helmet?useSSL=false&characterEncoding=utf-8&serverTimezone=UTC
+#    username: root
+#    password: Maqi@1466
+#    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
